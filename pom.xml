@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.springboot.demo</groupId>
-    <artifactId>whh</artifactId>
+    <artifactId>springboot_whh</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>whh</name>
     <description>Demo project for Spring Boot</description>
@@ -35,6 +35,21 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+
+        <!--&lt;!&ndash;spring 依赖&ndash;&gt;-->
+        <!--<dependency>-->
+            <!--<groupId>org.springframework</groupId>-->
+            <!--<artifactId>spring-context</artifactId>-->
+            <!--<version>4.3.11.RELEASE</version>-->
+        <!--</dependency>-->
+
+        <!--aop-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-aop</artifactId>
+        </dependency>
+
+
     </dependencies>
 
     <build>
